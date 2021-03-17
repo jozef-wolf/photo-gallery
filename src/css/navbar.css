@@ -1,0 +1,18 @@
+nav {
+  background-color: white;
+}
+
+.hamburger {
+  padding: 15px;
+  font-size: 30px;
+}
+
+.menu {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+}
+/*# sourceMappingURL=navbar.css.map */

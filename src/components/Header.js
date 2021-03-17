@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 const Header = () => {
   return (
     <header>
-      <span>app name</span>
+      <span>Photography</span>
       <Navbar />
     </header>
   );

@@ -9,7 +9,7 @@ const Navbar = () => {
 
   if (showMenu) {
     menu = (
-      <div>
+      <div className="menu">
         <ul>
           <li>home</li>
           <li>informacje</li>
@@ -22,7 +22,11 @@ const Navbar = () => {
   return (
     <nav>
       <span>
-        <FontAwesomeIcon icon={faBars} onClick={() => setShowMenu(!showMenu)} />
+        <FontAwesomeIcon
+          className="hamburger"
+          icon={faBars}
+          onClick={() => setShowMenu(!showMenu)}
+        />
       </span>
 
       {menu}

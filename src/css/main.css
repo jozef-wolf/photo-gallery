@@ -1,9 +1,37 @@
-.header {
-  background-color: black;
-  color: white;
+header {
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #919191;
 }
 
-.navbar {
-  background-color: red;
+nav {
+  background-color: white;
+}
+
+.hamburger {
+  padding: 15px;
+  font-size: 30px;
+}
+
+.menu {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  height: 100%;
 }
 /*# sourceMappingURL=main.css.map */

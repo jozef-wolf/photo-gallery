@@ -8,7 +8,15 @@ const Navbar = () => {
   let menu;
 
   if (showMenu) {
-    menu = <div>the menu</div>;
+    menu = (
+      <div>
+        <ul>
+          <li>home</li>
+          <li>informacje</li>
+          <li>kontakt</li>
+        </ul>
+      </div>
+    );
   }
 
   return (

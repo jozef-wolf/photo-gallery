@@ -1,5 +1,13 @@
+import React from "react";
+import Navbar from "./Navbar";
+
 const Header = () => {
-  return <div className="header"></div>;
+  return (
+    <header>
+      <span>app name</span>
+      <Navbar />
+    </header>
+  );
 };
 
 export default Header;

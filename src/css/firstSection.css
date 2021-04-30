@@ -1,39 +1,34 @@
 .section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   background-color: white;
   height: 100%;
 }
-
 .section img {
   width: 100vw;
-  height: auto;
+  height: 100vh;
   background-size: cover;
-  opacity: 60%;
+  opacity: 30%;
 }
-
 .section h1 {
+  position: absolute;
   color: black;
   font-size: 35px;
-  position: fixed;
-  top: 40%;
-  left: 40%;
+  top: 20%;
+  right: 35%;
 }
 
 .arrow--down {
   font-size: 45px;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   right: 45%;
   opacity: 40%;
 }
-
 .arrow--down:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
   bottom: 10px;
   cursor: pointer;
   opacity: 80%;
 }
+
 /*# sourceMappingURL=firstSection.css.map */

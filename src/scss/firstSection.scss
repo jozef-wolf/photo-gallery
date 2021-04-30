@@ -1,24 +1,25 @@
 .section {
-  display: flex;
+  position: relative;
   background-color: white;
   height: 100%;
   & img {
     width: 100vw;
-    height: auto;
+    height: 100vh;
     background-size: cover;
-    opacity: 60%;
+    opacity: 30%;
   }
   h1 {
+    position: absolute;
     color: black;
     font-size: 35px;
 
-    top: 40%;
-    right: 40%;
+    top: 20%;
+    right: 35%;
   }
 }
 .arrow--down {
   font-size: 45px;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   right: 45%;
   opacity: 40%;

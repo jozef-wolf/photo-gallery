@@ -16,6 +16,14 @@ body {
   display: flex;
   .left-side {
     flex: 50%;
+    .links {
+      max-height: 60px;
+      a {
+        text-decoration: none;
+        color: white;
+        font-family: 25px;
+      }
+    }
   }
   .right-side {
     flex: 50%;

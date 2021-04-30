@@ -51,6 +51,14 @@ body {
 .Navbar .left-side {
   flex: 50%;
 }
+.Navbar .left-side .links {
+  max-height: 60px;
+}
+.Navbar .left-side .links a {
+  text-decoration: none;
+  color: white;
+  font-family: 25px;
+}
 .Navbar .right-side {
   flex: 50%;
 }

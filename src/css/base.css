@@ -17,6 +17,21 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
 }
+.Navbar .left-side #hidden {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  .Navbar .left-side #hidden {
+    position: absolute;
+    left: 0;
+    top: 60px;
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+  }
+}
 .Navbar .left-side {
   flex: 50%;
   display: flex;
@@ -35,18 +50,17 @@ body {
 .Navbar .left-side .links {
   max-height: 60px;
 }
+@media only screen and (max-width: 768px) {
+  .Navbar .left-side .links {
+    display: none;
+  }
+}
 .Navbar .left-side .links a {
   text-decoration: none;
   color: #000;
   font-family: 25px;
   margin-left: 15px;
   padding: 20px 10px;
-  position: relative;
-}
-@media only screen and (max-width: 768px) {
-  .Navbar .left-side .links a {
-    display: none;
-  }
 }
 .Navbar .left-side .links a:hover {
   color: #000;

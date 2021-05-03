@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 
 const Navbar = () => {
-  const [showLinks, setShowLinks] = useState(false);
+  const [showLinks, setShowLinks] = useState(true);
 
   return (
     <div className="Navbar">
       <div className="left-side">
-        <div className="links">
+        <div className="links" id={showLinks ? "hidden" : ""}>
           <a href="/home">Home</a>
           <a href="/about">About</a>
           <a href="/contact">Contact</a>
-          <button> Open</button>
         </div>
+        <button> Open</button>
       </div>
       <div className="right-side"></div>
     </div>

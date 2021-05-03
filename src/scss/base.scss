@@ -25,9 +25,9 @@ body {
       position: absolute;
       left: 0;
       top: 60px;
-      height: auto;
+      height: 230px;
       width: 100%;
-      background-color: transparent;
+      background-color: white;
     }
   }
 
@@ -38,14 +38,16 @@ body {
     align-items: center;
     button {
       display: none;
-      background-color: red;
+      background-color: black;
+      color: white;
       @media only screen and (max-width: 768px) {
         display: flex;
       }
     }
 
     .links {
-      max-height: 60px;
+      display: flex;
+      height: 60px;
       @media only screen and (max-width: 768px) {
         display: none;
       }

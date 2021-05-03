@@ -23,6 +23,15 @@ body {
   justify-content: left;
   align-items: center;
 }
+.Navbar .left-side button {
+  display: none;
+  background-color: red;
+}
+@media only screen and (max-width: 768px) {
+  .Navbar .left-side button {
+    display: flex;
+  }
+}
 .Navbar .left-side .links {
   max-height: 60px;
 }
@@ -34,7 +43,12 @@ body {
   padding: 20px 10px;
   position: relative;
 }
-.Navbar .left-side .links a :hover {
+@media only screen and (max-width: 768px) {
+  .Navbar .left-side .links a {
+    display: none;
+  }
+}
+.Navbar .left-side .links a:hover {
   color: #000;
   cursor: pointer;
 }

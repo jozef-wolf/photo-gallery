@@ -55,6 +55,7 @@ body {
         font-family: 25px;
         margin-left: 15px;
         padding: 20px 10px;
+        position: relative;
         &:hover {
           color: #000;
           cursor: pointer;
@@ -64,7 +65,7 @@ body {
           position: absolute;
           width: 20px;
           height: 2px;
-          left: 50%;
+          left: 20%;
           margin-top: 20px;
           background: #000;
           transform: scale(0, 1);

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Navbar = () => {
-  const [showLinks, setShowLinks] = useState(true);
+  const [showLinks, setShowLinks] = useState(false);
 
   return (
     <div className="Navbar">
@@ -11,7 +11,7 @@ const Navbar = () => {
           <a href="/about">About</a>
           <a href="/contact">Contact</a>
         </div>
-        <button> Open</button>
+        <button onClick={() => setShowLinks(!showLinks)}> Open</button>
       </div>
       <div className="right-side"></div>
     </div>

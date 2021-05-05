@@ -5,7 +5,7 @@ const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
 
   return (
-    <div className="Navbar">
+    <div className="navbar active">
       <div className="left-side">
         <Link to="/">Josef Wolf</Link>
       </div>

@@ -1,7 +1,4 @@
-.Navbar {
-  position: fixed;
-  z-index: 20;
-  background-color: transparent;
+.navbar {
   width: 100%;
   height: 60px;
   padding-top: 1.2vw;
@@ -10,20 +7,26 @@
   padding-right: 4vw;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 999;
 }
 @media only screen and (max-width: 768px) {
-  .Navbar {
+  .navbar {
     flex-direction: row-reverse;
   }
 }
-.Navbar .right-side #hidden {
+.navbar .navbar.active {
+  background-color: linear-gradient(90deg, white 0%, black 100%);
+}
+.navbar .right-side #hidden {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 20px;
 }
 @media only screen and (max-width: 768px) {
-  .Navbar .right-side #hidden {
+  .navbar .right-side #hidden {
     position: absolute;
     left: 0;
     top: 60px;
@@ -31,11 +34,11 @@
     width: 100%;
     background-color: white;
   }
-  .Navbar .right-side #hidden a {
+  .navbar .right-side #hidden a {
     top: 15%;
   }
 }
-.Navbar .right-side {
+.navbar .right-side {
   flex: 50%;
   display: flex;
   justify-content: left;
@@ -44,7 +47,7 @@
   font-style: normal;
   letter-spacing: 0em;
 }
-.Navbar .right-side .hamburger {
+.navbar .right-side .hamburger {
   display: none;
   width: 2rem;
   height: 2rem;
@@ -55,37 +58,37 @@
   z-index: 20;
 }
 @media only screen and (max-width: 768px) {
-  .Navbar .right-side .hamburger {
+  .navbar .right-side .hamburger {
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
   }
 }
-.Navbar .right-side .hamburger div {
+.navbar .right-side .hamburger div {
   width: 2rem;
   height: 0.25rem;
   background-color: black;
 }
-.Navbar .right-side .links {
+.navbar .right-side .links {
   display: flex;
   height: 60px;
 }
 @media only screen and (max-width: 768px) {
-  .Navbar .right-side .links {
+  .navbar .right-side .links {
     display: none;
   }
 }
-.Navbar .right-side .links a {
+.navbar .right-side .links a {
   text-decoration: none;
   color: #000;
   padding: 20px 10px;
   position: relative;
 }
-.Navbar .right-side .links a:hover {
+.navbar .right-side .links a:hover {
   color: #000;
   cursor: pointer;
 }
-.Navbar .right-side .links a::after {
+.navbar .right-side .links a::after {
   content: "";
   position: absolute;
   width: 50%;
@@ -96,10 +99,10 @@
   transform: scale(0, 1);
   transition: transform 0.3s ease;
 }
-.Navbar .right-side .links a:hover::after {
+.navbar .right-side .links a:hover::after {
   transform: scale(1, 1);
 }
-.Navbar .left-side {
+.navbar .left-side {
   flex: 50%;
   line-height: 4;
   font-family: Cormorant Garamond;
@@ -109,7 +112,7 @@
   text-transform: none;
   font-size: calc((2 - 1) * 1.2vw + 1rem);
 }
-.Navbar .left-side a {
+.navbar .left-side a {
   text-decoration: none;
   color: #000;
   margin-left: 15px;

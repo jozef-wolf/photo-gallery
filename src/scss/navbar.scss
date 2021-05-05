@@ -18,17 +18,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    font-size: 2.5rem;
-    overflow: hidden;
+    font-size: 20px;
     @media only screen and (max-width: 768px) {
       position: absolute;
-
       left: 0;
       top: 60px;
       height: 100vh;
       width: 100%;
       background-color: white;
+      a {
+        top: 15%;
+      }
     }
   }
 
@@ -72,7 +72,7 @@
       a {
         text-decoration: none;
         color: #000;
-        margin-left: 15px;
+
         padding: 20px 10px;
         position: relative;
         &:hover {
@@ -82,7 +82,7 @@
         &::after {
           content: "";
           position: absolute;
-          width: 20px;
+          width: 50%;
           height: 1px;
           left: 20%;
           margin-top: 20px;

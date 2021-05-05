@@ -75,9 +75,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  font-size: 2.5rem;
-  overflow: hidden;
+  font-size: 20px;
 }
 @media only screen and (max-width: 768px) {
   .Navbar .right-side #hidden {
@@ -87,6 +85,9 @@ body {
     height: 100vh;
     width: 100%;
     background-color: white;
+  }
+  .Navbar .right-side #hidden a {
+    top: 15%;
   }
 }
 .Navbar .right-side {
@@ -132,7 +133,6 @@ body {
 .Navbar .right-side .links a {
   text-decoration: none;
   color: #000;
-  margin-left: 15px;
   padding: 20px 10px;
   position: relative;
 }
@@ -143,7 +143,7 @@ body {
 .Navbar .right-side .links a::after {
   content: "";
   position: absolute;
-  width: 20px;
+  width: 50%;
   height: 1px;
   left: 20%;
   margin-top: 20px;

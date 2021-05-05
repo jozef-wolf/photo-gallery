@@ -6,6 +6,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .Navbar {
@@ -46,6 +47,9 @@ body {
   display: flex;
   justify-content: left;
   align-items: center;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0em;
 }
 .Navbar .right-side .hamburger {
   display: none;
@@ -106,11 +110,16 @@ body {
 .Navbar .left-side {
   flex: 50%;
   line-height: 4;
+  font-family: Cormorant Garamond;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-transform: none;
+  font-size: calc((2 - 1) * 1.2vw + 1rem);
 }
 .Navbar .left-side a {
   text-decoration: none;
   color: #000;
-  font-size: 25px;
   margin-left: 15px;
   padding: 20px 10px;
 }

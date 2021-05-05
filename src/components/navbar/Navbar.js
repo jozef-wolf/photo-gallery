@@ -11,7 +11,11 @@ const Navbar = () => {
           <a href="/about">About</a>
           <a href="/contact">Contact</a>
         </div>
-        <button onClick={() => setShowLinks(!showLinks)}> Open</button>
+        <div className="hamburger" onClick={() => setShowLinks(!showLinks)}>
+          <div />
+          <div />
+          <div />
+        </div>
       </div>
       <div className="right-side"></div>
     </div>

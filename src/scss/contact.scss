@@ -1,6 +1,17 @@
 .contact {
   height: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding-top: 120px;
+  a {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: black;
+    font-size: 20px;
+    padding: 1.5rem;
+  }
+  a:nth-child(3) {
+    text-decoration: none;
+  }
 }

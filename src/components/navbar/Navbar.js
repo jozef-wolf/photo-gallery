@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -6,13 +7,13 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <div className="left-side">
-        <a href="/home">Josef Wolf</a>
+        <Link to="/">Josef Wolf</Link>
       </div>
       <div className="right-side">
         <div className="links" id={showLinks ? "hidden" : ""}>
-          <a href="/about">About</a>
-          <a href="/photos">Photos</a>
-          <a href="/contact">Contact</a>
+          <Link to="/about">About</Link>
+          <Link to="/photos">Photos</Link>
+          <Link to="/contact">Contact</Link>
         </div>
         <div className="hamburger" onClick={() => setShowLinks(!showLinks)}>
           <div />

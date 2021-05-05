@@ -137,4 +137,11 @@ body {
   padding: 20px 10px;
 }
 
+.about {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+}
+
 /*# sourceMappingURL=main.css.map */

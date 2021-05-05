@@ -9,26 +9,5 @@
   background-size: cover;
   opacity: 30%;
 }
-.section h1 {
-  position: absolute;
-  color: black;
-  font-size: 35px;
-  top: 20%;
-  right: 35%;
-}
-
-.arrow--down {
-  font-size: 45px;
-  position: absolute;
-  bottom: 0;
-  right: 45%;
-  opacity: 40%;
-}
-.arrow--down:hover {
-  transform: scale(1.2);
-  bottom: 10px;
-  cursor: pointer;
-  opacity: 80%;
-}
 
 /*# sourceMappingURL=firstSection.css.map */

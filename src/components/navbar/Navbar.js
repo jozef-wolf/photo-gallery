@@ -3,9 +3,20 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
+  const [navbar, setNavbar] = useState(false);
+
+  const changeBackground = () => {
+    if (window.scrollY >= 80) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeBackground);
 
   return (
-    <div className="navbar active">
+    <div className={navbar ? "navbar active" : "navbar"}>
       <div className="left-side">
         <Link to="/">Josef Wolf</Link>
       </div>

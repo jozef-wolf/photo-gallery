@@ -1,6 +1,6 @@
 .navbar {
   width: 100%;
-  height: 60px;
+  height: 80px;
   padding-top: 1.2vw;
   padding-bottom: 1.2vw;
   padding-left: 4vw;
@@ -11,13 +11,14 @@
   top: 0;
   z-index: 999;
 }
+.navbar.active {
+  z-index: 999;
+  background: linear-gradient(180deg, #030303 0%, #525252 55%);
+}
 @media only screen and (max-width: 768px) {
   .navbar {
     flex-direction: row-reverse;
   }
-}
-.navbar .navbar.active {
-  background-color: linear-gradient(90deg, white 0%, black 100%);
 }
 .navbar .right-side #hidden {
   display: flex;

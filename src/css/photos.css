@@ -4,5 +4,9 @@
   justify-content: center;
   padding-top: 120px;
 }
+.photos h2 {
+  letter-spacing: 0.5rem;
+  font-size: 1.75rem;
+}
 
 /*# sourceMappingURL=photos.css.map */

@@ -1,12 +1,12 @@
 import "./css/main.css";
 import Navbar from "./components/navbar/Navbar";
-import FirstSection from "./components/FirstSection";
+import Home from "./components/Home";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <FirstSection />
+      <Home />
     </div>
   );
 }

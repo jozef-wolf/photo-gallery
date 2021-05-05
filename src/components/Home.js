@@ -2,13 +2,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import photo from "../img/india-train.jpg";
 
-const FirstSection = () => {
+const Home = () => {
   return (
-    <div className="section">
+    <div className="home">
       <img src={photo} alt="" />
       <FontAwesomeIcon className="arrow--down" icon={faAngleDown} />
     </div>
   );
 };
 
-export default FirstSection;
+export default Home;

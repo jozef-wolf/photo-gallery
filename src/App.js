@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Photos from "./components/Photos";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Contact />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

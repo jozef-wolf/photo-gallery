@@ -13,7 +13,8 @@
 }
 .navbar.active {
   z-index: 999;
-  background: linear-gradient(180deg, #030303 0%, #525252 55%);
+  color: white;
+  background-image: linear-gradient(to top, white, #fdfdfd);
 }
 @media only screen and (max-width: 768px) {
   .navbar {

@@ -12,7 +12,12 @@
   z-index: 999;
   &.active {
     z-index: 999;
-    background: linear-gradient(180deg, rgb(3, 3, 3) 0%, rgb(82, 82, 82) 55%);
+    color: white;
+    background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 1),
+      rgb(253, 253, 253, 1)
+    );
   }
   @media only screen and (max-width: 768px) {
     flex-direction: row-reverse;

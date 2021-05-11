@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/photo-gallery/static/css/main.c3fb92f2.chunk.css",
+    "main.js": "/photo-gallery/static/js/main.03029e9d.chunk.js",
+    "main.js.map": "/photo-gallery/static/js/main.03029e9d.chunk.js.map",
+    "runtime-main.js": "/photo-gallery/static/js/runtime-main.271674c2.js",
+    "runtime-main.js.map": "/photo-gallery/static/js/runtime-main.271674c2.js.map",
+    "static/js/2.fe2254fc.chunk.js": "/photo-gallery/static/js/2.fe2254fc.chunk.js",
+    "static/js/2.fe2254fc.chunk.js.map": "/photo-gallery/static/js/2.fe2254fc.chunk.js.map",
+    "index.html": "/photo-gallery/index.html",
+    "static/css/main.c3fb92f2.chunk.css.map": "/photo-gallery/static/css/main.c3fb92f2.chunk.css.map",
+    "static/js/2.fe2254fc.chunk.js.LICENSE.txt": "/photo-gallery/static/js/2.fe2254fc.chunk.js.LICENSE.txt",
+    "static/media/astrophoto.cdb7700a.jpg": "/photo-gallery/static/media/astrophoto.cdb7700a.jpg",
+    "static/media/events.cae76b80.jpg": "/photo-gallery/static/media/events.cae76b80.jpg",
+    "static/media/main.css": "/photo-gallery/static/media/main.b91ec088.jpg",
+    "static/media/property.3c2594cb.jpg": "/photo-gallery/static/media/property.3c2594cb.jpg",
+    "static/media/travel.c88371e0.jpg": "/photo-gallery/static/media/travel.c88371e0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.271674c2.js",
+    "static/js/2.fe2254fc.chunk.js",
+    "static/css/main.c3fb92f2.chunk.css",
+    "static/js/main.03029e9d.chunk.js"
+  ]
+}

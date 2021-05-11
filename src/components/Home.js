@@ -1,11 +1,5 @@
-import photo from "../img/india-train.jpg";
-
 const Home = () => {
-  return (
-    <div className="home">
-      <img src={photo} alt="" />
-    </div>
-  );
+  return <div className="home"></div>;
 };
 
 export default Home;

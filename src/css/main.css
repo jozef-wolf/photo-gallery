@@ -1,12 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,500&display=swap");
 .home {
-  position: relative;
-  background-color: white;
+  background-image: url("../img/india-train.jpg");
   height: 100%;
-}
-.home img {
-  width: 100vw;
-  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   opacity: 30%;
 }
@@ -19,7 +16,9 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
   font-family: "Cormorant Garamond", serif;
+  overflow-x: hidden;
 }
 
 .about {

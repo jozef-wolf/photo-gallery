@@ -1,11 +1,8 @@
 .home {
-  position: relative;
-  background-color: white;
+  background-image: url("../img/india-train.jpg");
   height: 100%;
-  & img {
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    opacity: 30%;
-  }
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 30%;
 }

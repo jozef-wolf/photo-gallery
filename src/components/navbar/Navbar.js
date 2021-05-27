@@ -21,11 +21,7 @@ const Navbar = () => {
         <Link to="/">Josef Wolf</Link>
       </div>
       <div className="right-side">
-        <div
-          className="links"
-          id={showLinks ? "hidden" : ""}
-          onClick={() => setShowLinks(!showLinks)}
-        >
+        <div className="links" id={showLinks ? "hidden" : ""}>
           <Link to="/about">About</Link>
           <Link to="/photos">Photos</Link>
           <Link to="/contact">Contact</Link>

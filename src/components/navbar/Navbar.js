@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <div className={navbar ? "navbar active" : "navbar"}>
       <div className="left-side">
-        <Link to="/photo-gallery">Josef Wolf</Link>
+        <Link to="/home">Josef Wolf</Link>
       </div>
       <div className="right-side">
         <div className="links" id={showLinks ? "hidden" : ""}>

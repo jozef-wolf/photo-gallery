@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/photo-gallery/static/css/main.c3fb92f2.chunk.css",
-    "main.js": "/photo-gallery/static/js/main.03029e9d.chunk.js",
-    "main.js.map": "/photo-gallery/static/js/main.03029e9d.chunk.js.map",
+    "main.css": "/photo-gallery/static/css/main.690adcb8.chunk.css",
+    "main.js": "/photo-gallery/static/js/main.8414a856.chunk.js",
+    "main.js.map": "/photo-gallery/static/js/main.8414a856.chunk.js.map",
     "runtime-main.js": "/photo-gallery/static/js/runtime-main.271674c2.js",
     "runtime-main.js.map": "/photo-gallery/static/js/runtime-main.271674c2.js.map",
     "static/js/2.fe2254fc.chunk.js": "/photo-gallery/static/js/2.fe2254fc.chunk.js",
     "static/js/2.fe2254fc.chunk.js.map": "/photo-gallery/static/js/2.fe2254fc.chunk.js.map",
     "index.html": "/photo-gallery/index.html",
-    "static/css/main.c3fb92f2.chunk.css.map": "/photo-gallery/static/css/main.c3fb92f2.chunk.css.map",
+    "static/css/main.690adcb8.chunk.css.map": "/photo-gallery/static/css/main.690adcb8.chunk.css.map",
     "static/js/2.fe2254fc.chunk.js.LICENSE.txt": "/photo-gallery/static/js/2.fe2254fc.chunk.js.LICENSE.txt",
     "static/media/astrophoto.cdb7700a.jpg": "/photo-gallery/static/media/astrophoto.cdb7700a.jpg",
     "static/media/events.cae76b80.jpg": "/photo-gallery/static/media/events.cae76b80.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.271674c2.js",
     "static/js/2.fe2254fc.chunk.js",
-    "static/css/main.c3fb92f2.chunk.css",
-    "static/js/main.03029e9d.chunk.js"
+    "static/css/main.690adcb8.chunk.css",
+    "static/js/main.8414a856.chunk.js"
   ]
 }

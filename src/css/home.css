@@ -1,9 +1,5 @@
-.home {
-  background-image: url("../img/main.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.home img {
+  width: 100vw;
 }
 
 /*# sourceMappingURL=home.css.map */

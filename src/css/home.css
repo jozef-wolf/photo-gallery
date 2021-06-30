@@ -1,5 +1,21 @@
-.home img {
+.home img:first-child {
   width: 100vw;
+}
+@media only screen and (max-width: 768px) {
+  .home img:first-child {
+    display: none;
+  }
+}
+
+.home img:last-child {
+  display: none;
+  margin-top: 80px;
+}
+@media only screen and (max-width: 768px) {
+  .home img:last-child {
+    display: flex;
+    width: 100vw;
+  }
 }
 
 /*# sourceMappingURL=home.css.map */

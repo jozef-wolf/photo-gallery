@@ -1,9 +1,9 @@
-import main from ".././img/main.jpg";
+import Main from ".././img/main.jpg";
 
 const Home = () => {
   return (
     <div className="home">
-      <img src={main} alt=""></img>
+      <img src={Main} alt=""></img>
     </div>
   );
 };
